@@ -1,0 +1,262 @@
+@media(max-width: 1400px){
+	.button{
+		text-align: center;
+		display: block;
+	}
+}
+
+
+@media(max-width: 1212px){
+	html{
+		font-size:10px;
+	}
+
+	.person img{
+		width: 30px;
+	}
+
+	.header-img img {
+		height: 76%;
+	}
+
+	.popup{
+		width: 400px;
+		height: 300px;
+	}
+}
+
+
+
+@media(max-width: 800px){
+
+	.main-text-body > .header-img {
+	display: none;
+	flex-direction: column;
+	}
+
+
+	.features-body{
+		height: 100%;
+		width:	100%;
+		flex-direction: column;
+	}
+	
+
+	.features-body > .feature{
+		width: 40%;
+	}
+
+
+
+	.testimonials-container > img, .about-container img {
+		display: none;
+	}
+
+	.about-container ul {
+		display: none;
+	}
+
+
+	.about-container > .about-body, .testimonials-container > .testimonials-body {
+	width: 60%;
+	}
+
+	.header-left{
+		text-align: center;
+	}
+
+
+	.about-body, .testimonials-body {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+		width: 300px;
+
+	}
+
+	.testimonials-body > .testimonials-text, .about-body > .about-text{
+		padding-right: 0;
+	}
+
+
+
+}
+
+
+@media(max-width: 720px){
+
+	header > .menu{
+		flex-direction: column;
+
+	}
+
+	.downloads-container{
+		display: none;
+	}
+
+	.review h2{
+		width: 70%;
+
+	}
+	
+
+
+	.pricing-container > .price-tags{
+		flex-direction: column;
+	}
+
+
+
+
+	.map-contact > .message {
+	width:	600px;
+	height: 261px;
+
+	}
+
+	.message > .style-width{
+		width: 537px;
+	}
+
+	.style-width .button {
+		font-size: 12px;
+		padding-left: 28.8px;  padding-right: 28.8px;
+		padding-top: 12px; padding-bottom: 12px;
+	}
+
+	.msg-input input{
+		font-size: 12.75px;
+		margin-top:    6px;
+		margin-bottom: 6px;
+		margin-right: 12px;
+		padding:	10.08px;
+		width: 225px;
+	}
+
+	.style-width textarea {
+		font-size: 12.75px;
+		padding: 12px;
+		width:     300px;
+		height: 141px;
+	}
+
+}
+
+
+
+@media(max-width: 560px){
+	header > .menu > .buttons{
+		display: none;
+	}
+
+	.main-text-body > .header-left {
+		width: 70%;
+	}
+
+	.contact-container{
+		height: 0vh;
+		min-height: 450px;
+	}
+
+	.map-contact{
+		height: 0vh;
+		min-height: 300px;
+	}
+
+	.map-contact > .message {
+	width:	   450px;
+	height: 195.75px;
+	margin-top: -170px;
+	}
+
+	.review h2{
+		width: 100%;
+
+	}
+
+	.message > .style-width{
+		width: 402.75px;
+	}
+
+	.style-width .button {
+		font-size: 9px;
+		padding-left: 21.6px;  padding-right: 21.6px;
+		padding-top: 9px; padding-bottom: 9px;
+	}
+
+	.msg-input input{
+		font-size:  9.5625px;
+		margin-top:    4.5px;
+		margin-bottom: 4.5px;
+		margin-right:    9px;
+		padding:	  7.56px;
+		width: 		168.75px;
+	}
+
+	.style-width textarea {
+		font-size: 9.5625px;
+		padding:   		9px;
+		width:     	  225px;
+		height:    105.75px;
+	}
+}
+
+
+
+@media(max-width: 448px) {
+
+	html{
+		font-size: 8px;
+	}
+
+
+
+	.contact-container {
+		height: 0vh;
+		min-height: 400px;
+	}
+
+	.map-contact{
+		height: 0vh;
+		min-height: 200px;
+	}
+
+	.map-contact > .message {
+	width:	   337.5px;
+	height: 146.8125px;
+	margin-top: -120px;
+
+	}
+
+	.message > .style-width{
+		width: 302.0625px;
+	}
+
+	.style-width .button {
+		font-size: 6.75px;
+		padding-left: 16.2px;  padding-right: 16.2px;
+		padding-top: 6.75px; padding-bottom: 6.75px;
+	}
+
+	.msg-input input{
+		font-size:   7.171px;
+		margin-top:   3.37px;
+		margin-bottom:3.37px;
+		margin-right: 6.75px;
+		padding:	  5.67px;
+		width: 	  126.5625px;
+	}
+
+	.style-width textarea {
+		font-size:  7.1718px;
+		padding:   	  6.75px;
+		width:     	168.75px;
+		height:    79.3125px;
+	}
+
+	.popup{
+		width: 300px;
+		height: 200px;
+	}
+}
